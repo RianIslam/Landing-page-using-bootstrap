@@ -1,0 +1,126 @@
+
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgb(255, 162, 178);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    color:rgb(255, 162, 178);
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    list-style: none;
+    background-color:rgb(255, 162, 178);
+    background-clip: padding-box;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: rgb(255, 67, 99);
+}
+
+#slider{
+    background: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.one h3{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.one h1{
+    border: 2px solid #ddd;
+    max-width: 650px;
+    font-size: 100px;
+    margin: 0 auto;
+    padding: 15px 15px;
+}
+.slider-overly{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+#about h1,h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#about p{
+    font-size: 14px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#about{
+    padding: 110px 0;
+}
+.aboutIcon i{
+    font-size: 50px;
+}
+#service{
+    padding: 90px 0;
+    background: #ddd;
+}
+.about-top p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.img-icon{
+    position: relative;
+    overflow: hidden;
+}
+.ovely{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .5s ease-in-out;
+}
+.img-icon:hover .ovely{
+    top: 0;
+}
+.google{
+    position: absolute;
+    left: 30%;
+    bottom: -100%;
+    transition: 0.5s;   
+}
+.google i{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.img-icon:hover .google{
+    bottom: 40%;
+}
+.google i:hover{
+    background-color: rgb(56, 253, 89);
+}
+.pricing{
+    background: black;
+    color: white;
+    padding: 20px 0;
+    
+}
